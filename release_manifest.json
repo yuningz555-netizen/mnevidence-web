@@ -1,6 +1,6 @@
 {
   "format": "MnEvidence runtime release 1",
-  "archive_sha256": "0515ee01de9372d53ad91589b70b81c6f75780979d2ce49fd82053597adb603f",
+  "archive_sha256": "73631643fa07e30992124ec85e52b883a49b4c29d2b01d20452b2d596b3b4cfe",
   "runtime_files": [
     {
       "path": "backend/app.py",
@@ -48,7 +48,7 @@
     },
     {
       "path": "tests/test_runtime.py",
-      "sha256": "687521f05abd1fa0a62a0733bf9add8a9766a1a3efc6dacae5672ff71c5fb64b"
+      "sha256": "321fdc759be984dd99611471c4aac858e1b9341830cd4acf070213634d50d2c3"
     },
     {
       "path": "frontend/src/App.jsx",

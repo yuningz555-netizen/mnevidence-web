@@ -39,6 +39,14 @@ Create a Python **Web Service**, not a static site, from the public repository U
 
 Free instances sleep after inactivity, may take about a minute to wake, and have memory/CPU and monthly-usage limits. Edited-context optimization can be slower than the archived default scenarios. With no payment method, usage limits may suspend availability; they must not be addressed by upgrading without the owner's approval. A website is not a guaranteed permanent archival endpoint.
 
+Some new Render accounts can require card verification even when the Free instance is selected. Stop rather than adding a card when no-payment-method hosting is required. This account's initial deployment encountered that requirement; no Render service or payment method was created.
+
+## PythonAnywhere free deployment
+
+The Beginner account provides one web application on a platform-generated domain, one worker and 512 MB storage. Use a Python 3.10 virtual environment, install the pinned requirements with pip's cache disabled, extract the archive with `python build.py`, and run the tests. Configure a **manual WSGI application** using `pythonanywhere_wsgi.py` rather than running a persistent console server. The frozen models, input transforms and search rules remain the same.
+
+The application does not need outbound network access at runtime. Dependency installation uses official PyPI packages. Free-account resource limits and periodic renewal/confirmation requirements still apply; do not upgrade, add payment details or assume permanent availability. Only claim a working public website after actual cloud prediction tests pass.
+
 ## Rights and attribution
 
 Third-party dependencies retain their original licenses; see `THIRD_PARTY_NOTICES.md` and the notices inside the archive. No license is asserted for original literature PDFs or publisher content, which are not redistributed. No blanket open license is invented for the compiled research inputs or frozen models. Public availability of this release does not by itself grant unrestricted reuse rights; a formal code/model/data license requires the research owners' choice.
