@@ -1,6 +1,6 @@
 {
   "format": "MnEvidence runtime release 1",
-  "archive_sha256": "30e1b8b45ac67dd3ea87cb148f33f0fa73f408f4a446643c430195ae6669a74f",
+  "archive_sha256": "374baeb65b0f9fefc1f61bc96b04c0bab1295fe1fbc81b35ef2fec92f4edb69d",
   "runtime_files": [
     {
       "path": "backend/app.py",
@@ -52,7 +52,7 @@
     },
     {
       "path": "frontend/src/App.jsx",
-      "sha256": "c3b320553f3152e80d3ecbcb924aecc7a0ca20f8d4e12b65e4668bd99a750790"
+      "sha256": "ee7f82b9df851a1282291f8ff0300cac25e4dab585dc13282358df8f1ef64af1"
     },
     {
       "path": "frontend/src/assets/heavy-metal-adsorption-concept-v1.png",
@@ -91,8 +91,8 @@
       "sha256": "ad941e0914624d332fbda3efcaf4239f77799295f64884eb23a791e03f33f43d"
     },
     {
-      "path": "frontend/dist/assets/index-DC4t7N3L.js",
-      "sha256": "f3bb5468ef8541c8b9021d881bcb920c7aa64dce025e84741741c4d3a4b5074c"
+      "path": "frontend/dist/assets/index-C3C0cdSH.js",
+      "sha256": "ef531bcb534b5045cc5f9d3e549c5755b060ef10198cc7d6d56d2f5e975897da"
     },
     {
       "path": "frontend/dist/assets/index-MkgFlLJv.css",
@@ -104,7 +104,7 @@
     },
     {
       "path": "frontend/dist/index.html",
-      "sha256": "e2cb39229b4fe0ecf5e10040c126b3a6ac36c64eac360cf0e70992430cb49b26"
+      "sha256": "194a4e57db0a21aa8f61e48aa6ef9a9757e0dbfba56de439ab261aa72a3a4b1e"
     },
     {
       "path": "frontend/dist/ui-concept-formal-science.png",
