@@ -2,6 +2,10 @@
 
 An English companion interface for literature-domain modeling of KMnO4-modified carbon sorbents. It uses frozen Bayesian XGBoost response backbones and the manuscript's mass-balance projection, support-distance calculation, and NSGA-III preference scores. The research ensemble's validation metrics are not per-input accuracy guarantees.
 
+Live application: https://15569.pythonanywhere.com/
+
+The free PythonAnywhere deployment was verified on 2 October 2026: 119 prediction cases, 12 archived strategy representatives, 20 conditional profiles, and an edited-context NSGA-III run. Maximum Windows/Linux differences were 0.000003815 mg/g before projection and below 0.00000075 in either projected response. Model hashes and scientific rules are unchanged. Runtime checks use a small cross-platform floating-point tolerance, not a relaxed scientific accuracy criterion.
+
 ## Scientific scope
 
 - Cd, Pb, Cu and Cr(VI): four audited screening scenarios, with uptake-forward, removal-forward and balanced preferences. Different preferences can select the same candidate.
@@ -20,7 +24,7 @@ This is a website-runtime release, not a deposit of every dataset underlying the
 
 ## Run locally
 
-Requires Python 3.10.18. On Linux x86_64, the pinned CPU-only XGBoost 3.0.5 package avoids installing unnecessary GPU libraries; other platforms use XGBoost 3.0.5.
+Requires Python 3.10 (cloud-tested on 3.10.12). On Linux x86_64, the pinned CPU-only XGBoost 3.0.5 package avoids installing unnecessary GPU libraries; other platforms use XGBoost 3.0.5.
 
 ```bash
 python build.py
@@ -46,6 +50,8 @@ Some new Render accounts can require card verification even when the Free instan
 The Beginner account provides one web application on a platform-generated domain, one worker and 512 MB storage. Use a Python 3.10 virtual environment, install the pinned requirements with pip's cache disabled, extract the archive with `python build.py`, and run the tests. Configure a **manual WSGI application** using `pythonanywhere_wsgi.py` rather than running a persistent console server. The frozen models, input transforms and search rules remain the same.
 
 The application does not need outbound network access at runtime. Dependency installation uses official PyPI packages. Free-account resource limits and periodic renewal/confirmation requirements still apply; do not upgrade, add payment details or assume permanent availability. Only claim a working public website after actual cloud prediction tests pass.
+
+The current Beginner plan is $0/month with no payment method. Its 100 CPU-seconds/day allowance applies to consoles and tasks, not web applications ([official explanation](https://www.pythonanywhere.com/tarpit/)). The web application has one worker and low bandwidth, so it is suitable for a low-traffic research companion, not an unlimited service. Log in at least monthly and click **Run until 1 month from today** on the Web page; the initial expiry is 2 November 2026. Policies and availability can change. In the measured deployment, a prediction took about 0.37 seconds including network round trip and an uncached edited-context search took about 11.7 seconds; these are observations, not response-time guarantees.
 
 ## Rights and attribution
 
