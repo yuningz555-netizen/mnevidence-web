@@ -1,0 +1,156 @@
+{
+  "format": "MnEvidence runtime release 1",
+  "archive_sha256": "0515ee01de9372d53ad91589b70b81c6f75780979d2ce49fd82053597adb603f",
+  "runtime_files": [
+    {
+      "path": "backend/app.py",
+      "sha256": "4ec3f9562526406b834cca08c904256b005b0ce4e13198070e84bce003b0ccd3"
+    },
+    {
+      "path": "backend/feature_engineering.py",
+      "sha256": "a1751dea8c15463017365ade7e3dbcc675ee6f9ad7a7b27b70ec97070fdd5087"
+    },
+    {
+      "path": "backend/model_runtime.py",
+      "sha256": "1e7bfe5448c68eda8dbb5207a801d6275357ff31b3fdb5333b01da040deecdcd"
+    },
+    {
+      "path": "backend/assets/model_manifest.json",
+      "sha256": "18ca32dbd610e294b34cc85dd0f72a8ec72f38cb88e56d90cab8725bb829c3dd"
+    },
+    {
+      "path": "backend/assets/pareto_candidates.csv",
+      "sha256": "d37338a27896ed58c95f61818537baeb5a879d8f2c0cf42a1163a7279b3ad449"
+    },
+    {
+      "path": "backend/assets/q_XGBoost_Bayesian.joblib",
+      "sha256": "d3e32a31037def216e0963f6090f863ecc2ea77986b5cfb7136697032c637313"
+    },
+    {
+      "path": "backend/assets/R_XGBoost_Bayesian.joblib",
+      "sha256": "d4ab385b16d69a072a668ff17b6400a1a242cfe93bbe2917189aab2b3f076db8"
+    },
+    {
+      "path": "backend/assets/support_contexts.json",
+      "sha256": "41f1b630b0058b7916d599f581cf44333f33636469785ba8c58a6cc6e384859e"
+    },
+    {
+      "path": "production.py",
+      "sha256": "676c1ceeac1c5da197ccb9e2b5abf915a9d32bb2eb234d89d194253c90a6f67c"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "c40284091a017ad2e09c67a61acd159dcb5e346562629dba894641bafe128eab"
+    },
+    {
+      "path": "tests/golden_predictions.json",
+      "sha256": "9dc7085c27ace5d83cec17bec187b8f524e9cd4fcf8e5b755ffc5a89a105db6d"
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "sha256": "687521f05abd1fa0a62a0733bf9add8a9766a1a3efc6dacae5672ff71c5fb64b"
+    },
+    {
+      "path": "frontend/src/App.jsx",
+      "sha256": "c3b320553f3152e80d3ecbcb924aecc7a0ca20f8d4e12b65e4668bd99a750790"
+    },
+    {
+      "path": "frontend/src/assets/heavy-metal-adsorption-concept-v1.png",
+      "sha256": "63df37f382ce3a4e1458b12c58e02a30d9b5f47d0ee6243353a8eccd318d3ca6"
+    },
+    {
+      "path": "frontend/src/assets/modified-biochar-water-hero-v1.png",
+      "sha256": "5641d57520e341c8a78bc91843ad478bceaa2d84305184782305390c2395547f"
+    },
+    {
+      "path": "frontend/src/components/AmbientField.jsx",
+      "sha256": "44cef881b59f905e49fe27ac7d4752b13922973a4564a7389f8356d086a0ac53"
+    },
+    {
+      "path": "frontend/src/components/Charts.jsx",
+      "sha256": "fb63274965e98f1970b48c8063921eaffcbc22cf507c8d44fb95839ba9c0fe51"
+    },
+    {
+      "path": "frontend/src/components/FormControls.jsx",
+      "sha256": "8b714ece81fef25838d12f8cd83f88ab746841d33a94fd1441efa49f9344b57e"
+    },
+    {
+      "path": "frontend/src/data.js",
+      "sha256": "804aca517cd2841f228f13f957de2ca4506882ced84e96aa5c887a2c54b7dea5"
+    },
+    {
+      "path": "frontend/src/main.jsx",
+      "sha256": "1d969ccb3c6f304eb3151feb41d39415832828eee0d3acb0d145f280b12c4620"
+    },
+    {
+      "path": "frontend/src/styles.css",
+      "sha256": "1e0c0de16105de4484d7a4d6e9e7f7cf6408aff5903de814e48cfa4a28a86c64"
+    },
+    {
+      "path": "frontend/public/ui-concept-formal-science.png",
+      "sha256": "ad941e0914624d332fbda3efcaf4239f77799295f64884eb23a791e03f33f43d"
+    },
+    {
+      "path": "frontend/dist/assets/index-DC4t7N3L.js",
+      "sha256": "f3bb5468ef8541c8b9021d881bcb920c7aa64dce025e84741741c4d3a4b5074c"
+    },
+    {
+      "path": "frontend/dist/assets/index-MkgFlLJv.css",
+      "sha256": "98b20c85ce221271d8d4f9e86e6193a4517560bbc259f9893b0a032bdded8459"
+    },
+    {
+      "path": "frontend/dist/assets/modified-biochar-water-hero-v1-DhcDM1RM.png",
+      "sha256": "5641d57520e341c8a78bc91843ad478bceaa2d84305184782305390c2395547f"
+    },
+    {
+      "path": "frontend/dist/index.html",
+      "sha256": "e2cb39229b4fe0ecf5e10040c126b3a6ac36c64eac360cf0e70992430cb49b26"
+    },
+    {
+      "path": "frontend/dist/ui-concept-formal-science.png",
+      "sha256": "ad941e0914624d332fbda3efcaf4239f77799295f64884eb23a791e03f33f43d"
+    },
+    {
+      "path": "third_party/gsap-package.json",
+      "sha256": "c99c1558dd3c2ec1193a4c3b53bab001643e8189b17e0a57976735eea83b9885"
+    },
+    {
+      "path": "third_party/lucide-react-LICENSE.txt",
+      "sha256": "1e7290b35280a048667bbf0ebabac1c7fd52a75300e8b2946ac165715997f2bc"
+    },
+    {
+      "path": "third_party/react-dom-LICENSE.txt",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    {
+      "path": "third_party/react-LICENSE.txt",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    {
+      "path": "third_party/scheduler-LICENSE.txt",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    {
+      "path": "frontend/index.html",
+      "sha256": "db221adc0c7948cedef9c4147f1405c15c3db6e5c3148dcdedaa5388db9d0bb0"
+    },
+    {
+      "path": "frontend/package.json",
+      "sha256": "edffca022e7684e9d2b4b3dac007b2c81f919529a516e0bf32a5d45c4cc15798"
+    },
+    {
+      "path": "frontend/pnpm-lock.yaml",
+      "sha256": "45e0daa3149db50f3f60893defb6da216ea7bfcb20700dce860aa7a8dea77ef5"
+    },
+    {
+      "path": "frontend/pnpm-workspace.yaml",
+      "sha256": "ac02d96368617c760f093cfe61fdec64b6244007ab3553e0d6621f706f54a353"
+    },
+    {
+      "path": "frontend/vite.config.js",
+      "sha256": "0717b898b8b57d6356874e182272c6bd4d06a727fc03699123d44f5358a7bb33"
+    }
+  ],
+  "models_unchanged_from_local_companion": true,
+  "scientific_rules_changed": false
+}

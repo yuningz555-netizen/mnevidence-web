@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: mnevidence-web
+    runtime: python
+    plan: free
+    buildCommand: python build.py && pip install -r requirements.txt && python -m unittest discover -s tests
+    startCommand: python production.py
+    healthCheckPath: /api/health
+    autoDeployTrigger: off
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.18
+      - key: OMP_NUM_THREADS
+        value: "1"
+      - key: OPENBLAS_NUM_THREADS
+        value: "1"
+      - key: MKL_NUM_THREADS
+        value: "1"
+      - key: NUMEXPR_NUM_THREADS
+        value: "1"
