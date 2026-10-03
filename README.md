@@ -4,7 +4,7 @@ An English companion interface for literature-domain modeling of KMnO4-modified 
 
 Live application: https://15569.pythonanywhere.com/
 
-The free PythonAnywhere deployment was verified on 2 October 2026: 119 prediction cases, 12 archived strategy representatives, 20 conditional profiles, and an edited-context NSGA-III run. Maximum Windows/Linux differences were 0.000003815 mg/g before projection and below 0.00000075 in either projected response. Model hashes and scientific rules are unchanged. Runtime checks use a small cross-platform floating-point tolerance, not a relaxed scientific accuracy criterion.
+The 3 October 2026 release uses the revised 1,296-row research dataset and new frozen response backbones. Its 10-fold out-of-fold research ensemble results are R² = 0.911 (uptake) and 0.890 (removal); these figures are not accuracy guarantees for individual website inputs. The local release was checked against its source runtime on 119 prediction cases, 12 strategy representatives, 20 conditional profiles, and an edited-context NSGA-III run. Cross-platform cloud verification is reported separately after deployment. Runtime comparisons allow only small floating-point differences.
 
 ## Scientific scope
 
@@ -16,9 +16,9 @@ The free PythonAnywhere deployment was verified on 2 October 2026: 119 predictio
 
 ## Release contents
 
-`runtime.zip` contains readable backend/frontend source, the prebuilt frontend, two frozen models, sanitized context defaults, six-control development-support coordinates, the archived candidate pool, dependency notices, and regression tests. `release_manifest.json` records SHA-256 hashes. The model hashes are unchanged from the local paper companion.
+`runtime.zip` contains readable backend/frontend source, the prebuilt frontend, two frozen models, sanitized context defaults, six-control development-support coordinates, the archived candidate pool, dependency notices, and regression tests. `release_manifest.json` records SHA-256 hashes. The model hashes match the current local paper companion, not the superseded 2 October release.
 
-The release excludes the manuscript, Supplementary Information, PDFs, the complete research database, source identifiers, internal adjudication notes, local logs, and personal launch paths. Only input fields required by the runtime and support calculation are retained. Experimental-series identifiers are replaced by their equivalent design-class tokens; all predictions are checked against the original runtime before release. The locked 260-row internal holdout is not used as support data.
+The release excludes the manuscript, Supplementary Information, PDFs, the complete research database, source identifiers, internal adjudication notes, local logs, and personal launch paths. Only input fields required by the runtime and support calculation are retained. Experimental-series identifiers are replaced by their equivalent design-class tokens; all predictions are checked against the original runtime before release. The locked 259-row internal holdout is not used as support data.
 
 This is a website-runtime release, not a deposit of every dataset underlying the manuscript. A permanent research archive and formal citation are separate tasks; no DOI or accession is asserted here.
 
@@ -50,6 +50,8 @@ Some new Render accounts can require card verification even when the Free instan
 The Beginner account provides one web application on a platform-generated domain, one worker and 512 MB storage. Use a Python 3.10 virtual environment, install the pinned requirements with pip's cache disabled, extract the archive with `python build.py`, and run the tests. Configure a **manual WSGI application** using `pythonanywhere_wsgi.py` rather than running a persistent console server. The frozen models, input transforms and search rules remain the same.
 
 The application does not need outbound network access at runtime. Dependency installation uses official PyPI packages. Free-account resource limits and periodic renewal/confirmation requirements still apply; do not upgrade, add payment details or assume permanent availability. Only claim a working public website after actual cloud prediction tests pass.
+
+The dashboard's storage percentage is server filesystem usage, not browser local storage. At the pre-update check, the virtual environment used about 427 MB and the site directory about 55 MB. The browser stores only the selected light/dark theme. API responses and HTML entry pages use `Cache-Control: no-store`; built static assets have versioned filenames. Clearing the browser theme cannot free server storage.
 
 The current Beginner plan is $0/month with no payment method. Its 100 CPU-seconds/day allowance applies to consoles and tasks, not web applications ([official explanation](https://www.pythonanywhere.com/tarpit/)). The web application has one worker and low bandwidth, so it is suitable for a low-traffic research companion, not an unlimited service. Log in at least monthly and click **Run until 1 month from today** on the Web page; the initial expiry is 2 November 2026. Policies and availability can change. In the measured deployment, a prediction took about 0.37 seconds including network round trip and an uncached edited-context search took about 11.7 seconds; these are observations, not response-time guarantees.
 

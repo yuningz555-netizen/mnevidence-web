@@ -1,10 +1,10 @@
 {
   "format": "MnEvidence runtime release 1",
-  "archive_sha256": "374baeb65b0f9fefc1f61bc96b04c0bab1295fe1fbc81b35ef2fec92f4edb69d",
+  "archive_sha256": "981fbc250c43cbeea35e6f0a02d0430abb228d6a7ffe6453eeb9fa1a71834136",
   "runtime_files": [
     {
       "path": "backend/app.py",
-      "sha256": "4ec3f9562526406b834cca08c904256b005b0ce4e13198070e84bce003b0ccd3"
+      "sha256": "7236a0edd21c178cfc1857f81855d138d20580f2e6ab14bbe158e5c8be904a5c"
     },
     {
       "path": "backend/feature_engineering.py",
@@ -12,27 +12,27 @@
     },
     {
       "path": "backend/model_runtime.py",
-      "sha256": "1e7bfe5448c68eda8dbb5207a801d6275357ff31b3fdb5333b01da040deecdcd"
+      "sha256": "0be319fc4e3109402081ee4378bf38d7dfe0eac76efa00d64d07a6ef9b13562b"
     },
     {
       "path": "backend/assets/model_manifest.json",
-      "sha256": "18ca32dbd610e294b34cc85dd0f72a8ec72f38cb88e56d90cab8725bb829c3dd"
+      "sha256": "853e8470ddf811a5398c4b67b679f1b66fcff93c94af881e0d0c0ad431003a32"
     },
     {
       "path": "backend/assets/pareto_candidates.csv",
-      "sha256": "d37338a27896ed58c95f61818537baeb5a879d8f2c0cf42a1163a7279b3ad449"
+      "sha256": "ae84b12c732a11c45513f0a14aa6a66019ce5ee8f0b205a494fe8a0d4f3449df"
     },
     {
       "path": "backend/assets/q_XGBoost_Bayesian.joblib",
-      "sha256": "d3e32a31037def216e0963f6090f863ecc2ea77986b5cfb7136697032c637313"
+      "sha256": "83b89ead989961722b17bc20a564f3e279061593a97de75e80ba0da7b605cc79"
     },
     {
       "path": "backend/assets/R_XGBoost_Bayesian.joblib",
-      "sha256": "d4ab385b16d69a072a668ff17b6400a1a242cfe93bbe2917189aab2b3f076db8"
+      "sha256": "91cd3174dff5f08552abd8e1f2909aae7ec2a414631d91279f7eafd66290113f"
     },
     {
       "path": "backend/assets/support_contexts.json",
-      "sha256": "41f1b630b0058b7916d599f581cf44333f33636469785ba8c58a6cc6e384859e"
+      "sha256": "61751fa9dfddcbc19db3b6f32586f1699cc7cd76cd8b1eb976464189e01fcb3c"
     },
     {
       "path": "production.py",
@@ -44,15 +44,15 @@
     },
     {
       "path": "tests/golden_predictions.json",
-      "sha256": "9dc7085c27ace5d83cec17bec187b8f524e9cd4fcf8e5b755ffc5a89a105db6d"
+      "sha256": "39acd11172f751f239236ab725bafae95238ff6120a4164f6fefe012e2c2a4a9"
     },
     {
       "path": "tests/test_runtime.py",
-      "sha256": "710b0c067e0d6fe33b3617a7cc7312685e48e91a61b80991903ba7c9279822d9"
+      "sha256": "b454472cb6bfbc94e9fe2872a5ec1312808716f155cd95ba5097a3bdb03b288c"
     },
     {
       "path": "frontend/src/App.jsx",
-      "sha256": "ee7f82b9df851a1282291f8ff0300cac25e4dab585dc13282358df8f1ef64af1"
+      "sha256": "cca3cbc061fc05130cf31165ce3115389624e9b30ae7d01d3953be6d66fcdc6e"
     },
     {
       "path": "frontend/src/assets/heavy-metal-adsorption-concept-v1.png",
@@ -91,6 +91,10 @@
       "sha256": "ad941e0914624d332fbda3efcaf4239f77799295f64884eb23a791e03f33f43d"
     },
     {
+      "path": "frontend/dist/assets/index-BJutUE8u.js",
+      "sha256": "11dcbb9c8bf1853c1883aa82a33760b8c5741d580d9116c28a76b83dec55f20c"
+    },
+    {
       "path": "frontend/dist/assets/index-C3C0cdSH.js",
       "sha256": "ef531bcb534b5045cc5f9d3e549c5755b060ef10198cc7d6d56d2f5e975897da"
     },
@@ -104,7 +108,7 @@
     },
     {
       "path": "frontend/dist/index.html",
-      "sha256": "194a4e57db0a21aa8f61e48aa6ef9a9757e0dbfba56de439ab261aa72a3a4b1e"
+      "sha256": "2aabe555c883f746789325401b26f4a1c70ed3f416eb0581eefafeff075b798e"
     },
     {
       "path": "frontend/dist/ui-concept-formal-science.png",
@@ -152,5 +156,6 @@
     }
   ],
   "models_unchanged_from_local_companion": true,
+  "scientific_assets_updated_for_20261003": true,
   "scientific_rules_changed": false
 }
